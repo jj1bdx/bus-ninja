@@ -85,8 +85,7 @@ static const uint8_t led_seq_glow[] PROGMEM =
     64, 0x80, 0xFF,
 };
 
-
-static const uint8_t *led_sequences[] PROGMEM =
+static const uint8_t * const led_sequences[] PROGMEM =
 {
     [LED_SEQ_OFF] = led_seq_off,
     [LED_SEQ_ON] = led_seq_on,
